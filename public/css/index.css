@@ -260,6 +260,10 @@
   border-radius: 4px;
 }
 
+form {
+  min-width: 50%;
+}
+
 .contact__button {
   transition: background-color 0.2s ease-out;
 }
@@ -285,6 +289,9 @@
   background: #fff;
 }
 
+@media screen and (min-width: 1600px) {
+}
+
 @media screen and (max-width: 900px) {
   .contact-section {
     max-width: 600px;
@@ -301,5 +308,9 @@
 
   .horizontal-separator {
     display: block;
+  }
+
+  form {
+    min-width: 75%;
   }
 }

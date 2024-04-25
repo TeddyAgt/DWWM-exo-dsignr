@@ -79,8 +79,9 @@ option {
 input:not([type="radio"], [type="checkbox"]),
 textarea {
   padding: 8px;
-  border: 1px solid var(--light-grey);
-  border-radius: 8px;
+  border: 1px solid var(--beige);
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
 }
 
 input:focus,
@@ -101,7 +102,7 @@ td {
   padding: 8px;
 }
 
-tr:not(:first-child) {
+tr:not(:first-child, :last-child) {
   border-bottom: 1px solid var(--light-grey);
 }
 
