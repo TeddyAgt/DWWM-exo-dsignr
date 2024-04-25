@@ -82,7 +82,7 @@
   max-width: 800px;
   margin: 0 auto;
   display: flex;
-  /* background: #fff; */
+  background: #fff;
   border-bottom: 1px solid var(--grey);
   margin-bottom: 32px;
   border-top-right-radius: 8px;
@@ -195,6 +195,7 @@ form {
 .contact__button {
   margin-left: auto;
   margin-top: 24px;
+  background: #fff;
 }
 
 @media screen and (max-width: 900px) {
