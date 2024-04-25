@@ -38,7 +38,9 @@ function toggleVideo(e) {
   console.log(e);
   if (isVideoPlaying) {
     video.play();
+    e.target.nextElementSibling.textContent = "Couper la vidéo";
   } else {
     video.pause();
+    e.target.nextElementSibling.textContent = "Jouer la vidéo";
   }
 }
