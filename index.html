@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c685d2b770.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./public/css/index.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <a href="./index.html" class="header__logo">Dsignr</a>
+        <button class="mobile-menu__toggler" aria-label="Ouvrir le menu de navigation" aria-controls="main-navigation"
+            aria-expanded="false">
+            <img class="mobile-menu__icon" src="./assets/icons/hamburger.png" alt="" aria-hidden="true">
+        </button>
+        <nav class="navigation" id="main-navigation">
+            <a href="#about" title="À propos" class="navigation__link">A propos</a>
+            <a href="#projects" title="Nos projets" class="navigation__link">Nos projets</a>
+            <a href="#rates" title="Grille de tarifs" class="navigation__link">Tarifs</a>
+            <a href="#Contact" title="Nous contacter" class="navigation__link">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <video class="hero-section__background" autoplay muted loop
+                src="./assets/videos/mixkit-male-designer-working-in-his-studio-29982.mp4"></video>
+            <div class="hero-section__overlay">
+                <h1 class="main-title">Dsignr</h1>
+                <p class="hero-section__subtitle">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi ab
+                    atque rerum similique id quo accusantium eligendi!</p>
+                <a href="#" class="btn hero-section__cta">Découvrir</a>
+
+            </div>
+        </section>
+
+        <section class="section--1100 about-section" id="about">
+            <h2 class="section-title">Qui sommes-nous ?</h2>
+
+            <img class="about-picture" src="./assets/images/team-1.jpg" alt="Notre équipe" title="Notre équipe">
+
+            <h3 class="about__title">Lorem ipsum</h3>
+            <p class="about__text-content">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum maiores ea ipsam! Nostrum doloremque
+                delectus ea odio explicabo nobis eaque reprehenderit aliquam. Asperiores, assumenda.
+            </p>
+            <h3 class="about__title">Adipisicing elit</h3>
+            <p class="about__text-content">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat fugiat deleniti, dolore non magni
+                itaque asperiores, ipsum assumenda, illo ex quae? Harum mollitia, ab libero velit itaque fugiat
+                blanditiis excepturi impedit, porro aperiam obcaecati quibusdam quis praesentium aut vitae nulla
+                asperiores architecto adipisci sequi nobis. Dolor odio harum, perferendis laudantium rerum optio dolorem
+                temporibus sequi.
+            </p>
+
+            <h3 class="about__title">Ipsum assumenda</h3>
+            <p class="about__text-content">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. In architecto fugiat quo reiciendis voluptate
+                aut ipsam blanditiis magnam, quaerat distinctio est atque molestiae modi doloremque iure accusamus quae
+                commodi vitae sed facere repellat? Voluptatem maiores amet iure. Cum magni repellat suscipit molestiae
+                esse hic omnis iusto, magnam fugiat.
+            </p>
+        </section>
+
+        <section class="section--1100 projects-section" id="projects">
+            <h2 class="section-title">Nos projets</h2>
+
+            <article class="project-card">
+                <div class="project-card__container project-card__container--left">
+                    <div class="image-container">
+                        <img src="./assets/images/project-1.jpg" alt="lorem ipsum" title="lorem ipsum"
+                            class="project-picture">
+                    </div>
+                </div>
+                <div class="project-card__container project-card__container--right">
+                    <h3 class="card__title">Lorem Ipsum</h3>
+                    <p class="card__text-content">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora vel, sit, odit repudiandae
+                        voluptatibus rerum assumenda quia doloremque quos minima, non omnis! Facilis, alias.
+                    </p>
+                    <a href="#" class="btn project-link">Explorer</a>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <div class="project-card__container project-card__container--left">
+                    <div class="image-container">
+                        <img src="./assets/images/project-2.jpg" alt="lorem ipsum" title="lorem ipsum"
+                            class="project-picture">
+                    </div>
+                </div>
+                <div class="project-card__container project-card__container--right">
+                    <h3 class="card__title">Dolor sit amet</h3>
+                    <p class="card__text-content">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum tempora sapiente libero ex
+                        voluptatibus soluta, fugit aspernatur.
+                    </p>
+                    <a href="#" class="btn project-link">Explorer</a>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <div class="project-card__container project-card__container--left">
+                    <div class="image-container">
+                        <img src="./assets/images/project-3.jpg" alt="lorem ipsum" title="lorem ipsum"
+                            class="project-picture">
+                    </div>
+                </div>
+                <div class="project-card__container project-card__container--right">
+                    <h3 class="card__title">Ducimus exceptur</h3>
+                    <p class="card__text-content">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus excepturi ex vel veritatis
+                        placeat fugit voluptate dolorum?
+                    </p>
+                    <a href="#" class="btn project-link">Explorer</a>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <div class="project-card__container project-card__container--left">
+                    <div class="image-container">
+                        <img src="./assets/images/project-4.jpg" alt="lorem ipsum" title="lorem ipsum"
+                            class="project-picture">
+                    </div>
+                </div>
+                <div class="project-card__container project-card__container--right">
+                    <h3 class="card__title">Consectetur adipisicing</h3>
+                    <p class="card__text-content">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores culpa quisquam eos facere
+                        officiis consequatur dolorem omnis, nesciunt provident?
+                    </p>
+                    <a href="#" class="btn project-link">Explorer</a>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <div class="project-card__container project-card__container--left">
+                    <div class="image-container">
+                        <img src="./assets/images/project-5.jpg" alt="lorem ipsum" title="lorem ipsum"
+                            class="project-picture">
+                    </div>
+                </div>
+                <div class="project-card__container project-card__container--right">
+                    <h3 class="card__title">Natus optio</h3>
+                    <p class="card__text-content">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia minima natus optio, officia porro
+                        at! Recusandae, qui laudantium.
+                    </p>
+                    <a href="#" class="btn project-link">Explorer</a>
+                </div>
+            </article>
+
+        </section>
+
+        <section class="section--1100 rates-section" id="rates">
+            <h2 class="section-title">Nos tarifs</h2>
+
+            <table class="rates-table">
+                <tr>
+                    <th>Service</th>
+                    <th>À partir de</th>
+                </tr>
+                <tr>
+                    <td>Lorem</td>
+                    <td class="right-align">120€</td>
+                </tr>
+                <tr>
+                    <td>Lorem</td>
+                    <td class="right-align">120€</td>
+                </tr>
+                <tr>
+                    <td>Lorem</td>
+                    <td class="right-align">120€</td>
+                </tr>
+                <tr>
+                    <td>Lorem</td>
+                    <td class="right-align">120€</td>
+                </tr>
+            </table>
+        </section>
+
+        <section class="section--1100 contact-section">
+            <h2 class="section-title mb-16 ">Nous contacter</h2>
+            <p class="contact__subtitle">Un projet en tête ? N'attendez plus et contactez nous !</p>
+
+            <article class="contact__content">
+
+                <aside>
+                    <h3 class="about__title">Où nous trouver</h3>
+                    <address>1 Place du Martroi - 45000 Orléans</address>
+                    <p class="contact__text-content"><span class="ff-title fw-600">Téléphone</span>: 02 38 45 98 85</p>
+                    <p class="contact__text-content"><span class="ff-title fw-600">Email</span>: contact@dsignr.fr</p>
+
+                    <img class="contact__picture" src="./assets/images/office.jpg" alt="Notre bureau"
+                        title="Notre bureau">
+                </aside>
+
+                <form action="./index.html" method="POST">
+                    <h3 class="about__title">Nous envoyer un message directement</h3>
+                    <div class="input-group">
+                        <label for="name">Votre nom</label>
+                        <input type="text" name="name" id="name">
+                    </div>
+                    <div class="input-group">
+                        <label for="email">Votre email</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                    <div class="input-group">
+                        <label for="message">Votre message</label>
+                        <textarea name="message" id="message"></textarea>
+                    </div>
+                    <button type="submit" class="btn contact__button">Envoyer</button>
+                </form>
+
+            </article>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer__container">
+            <p class="footer__text-content">&copy; Dsignr 2024 | Voir les <a href="#" class="footer__link">mentions
+                    légales</a>.</p>
+            <address class="footer__text-content">1 Place du Martroi - 45000 Orléans</address>
+            <p class="footer__text-content">Merci à <a href="https://www.flaticon.com/authors/azmianshori"
+                    class="footer__link">Azmianshori</a> pour les icônes.</p>
+        </div>
+        <nav class="footer__navigation">
+            <a href="#" title="Suivez-nous sur Instagram" class="network-link" aria-label="Suivez-nous sur Instagram"
+                target="_blank">
+                <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+            </a>
+            <a href="#" title="Suivez-nous sur Twitter" class="network-link" aria-label="Suivez-nous sur Twitter"
+                target="_blank">
+                <i class="fa-brands fa-x-twitter" aria-hidden="true"></i>
+            </a>
+        </nav>
+
+    </footer>
+    <script src="./script.js"></script>
+</body>
+
+</html>
